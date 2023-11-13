@@ -1,0 +1,3 @@
+
+def ta():
+    print("ta")
