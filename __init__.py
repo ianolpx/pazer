@@ -1,3 +1,2 @@
 
-def ta():
-    print("ta")
+from .ta import *
