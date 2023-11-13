@@ -1,1 +1,3 @@
-from .normalizer import *
+
+def normalizer():
+    print("normalizer")
