@@ -13,7 +13,7 @@ with open(pjoin('pnzer', '__version__.py')) as f:
 setup(
     name=meta['__title__'],
     license=meta['__license__'],
-    version=meta['__version__'],
+    version='{{VERSION_PLACEHOLDER}}',
     author=meta['__author__'],
     author_email=meta['__contact__'],
     url=meta['__url__'],
