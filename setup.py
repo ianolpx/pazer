@@ -5,19 +5,14 @@ from os.path import dirname, join as pjoin
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-meta = {}
-with open(pjoin('pnzer', '__version__.py')) as f:
-    exec(f.read(), meta)
-
-
 setup(
-    name=meta['__title__'],
-    license=meta['__license__'],
+    name='pazer',
+    license='MIT',
     version='{{VERSION_PLACEHOLDER}}',
-    author=meta['__author__'],
-    author_email=meta['__contact__'],
-    url=meta['__url__'],
-    description=meta['__description__'],
+    author='Ian Park',
+    author_email='ianolpx@gmail.com',
+    url='https://github.com/ianolpx/pazer',
+    description='',
     long_description=long_description,
     long_description_content_type="text/markdown",
     classifiers=[

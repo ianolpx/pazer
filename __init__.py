@@ -1,2 +1,0 @@
-
-from .ta import *
